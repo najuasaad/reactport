@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./style.css";
 
 function Footer() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+    <nav className="navbar navbar-expand-lg fixed-bottom navbar-light justify-content-center">
       <div>
         <ul className="navbar-nav">
           <li className="nav-item">
