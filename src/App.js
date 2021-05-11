@@ -10,7 +10,6 @@ import Contact from "./pages/Contact"
 // components
 import Footer from "./components/Footer"
 import Header from "./components/Header"
-import Navbar from "./components/Navbar"
 import Wrapper from "./components/Wrapper";
 
 
@@ -19,7 +18,6 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <Navbar />
         <Wrapper>
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
