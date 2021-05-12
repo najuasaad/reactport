@@ -4,8 +4,8 @@ import "./style.css";
 
 function Footer() {
   return (
-    <nav className="navbar navbar-expand-lg fixed-bottom navbar-light justify-content-center">
-      <div>
+    <nav className="navbar navbar-expand-lg fixed-bottom navbar-light bg-white justify-content-center">
+      <div><p className="footfoot">
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link
@@ -36,7 +36,7 @@ function Footer() {
             </Link>
           </li>
         </ul>
-      </div>
+        </p></div>
     </nav>
   );
 }
