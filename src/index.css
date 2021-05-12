@@ -60,3 +60,57 @@ p {
   color: var(--brown);
   background-color: var(--teal)
 }
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 1004px) {
+  li {
+    position: fixed;
+    bottom: 8px;
+  }
+
+  li.a {
+    left: 400px;
+  }
+
+  li.b {
+    left: 500px;
+  }
+
+  li.c {
+    left: 600px;
+  }
+}
+
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+  .me {
+    max-width: 250px;
+  }
+
+  .title {
+    font-size: 25px;
+  } 
+
+  p {
+    font-size: 14px;
+  }
+
+  li {
+    position: fixed;
+    bottom: 8px;
+  }
+
+  li.a {
+    left: 150px;
+  }
+
+  li.b {
+    left: 250px;
+  }
+
+  li.c {
+    left: 350px;
+  }
+}
+

@@ -28,7 +28,7 @@ function Project(props) {
   }
 
   return (
-    <div className="card projectCard border-0 col-5 mx-auto" /* style="width: 18rem;" */>
+    <div className="card projectCard border-0 col-md-5 mx-auto" /* style="width: 18rem;" */>
         <p className="card-text orange text-center mt-0 title">{props.project}</p>
         <p className="card-text orange text-center mt-0">{props.description}</p>
       <img src={imgSrc()} className="card-img-top projImage" alt={props.project}/>

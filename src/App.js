@@ -31,7 +31,7 @@ function App() {
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
         </Wrapper>
-        <div className="container-fluid"><Footer /></div>
+        <div className="container-fluid"><div className="row"><Footer /></div></div>
       </div>
     </Router>
   );

@@ -8,7 +8,7 @@ function Portfolio() {
   return (
     <div className="container">
       <div className="row">
-        <p className="text-center mx-auto orange">(click on the icons for the repo and deployed versions)</p>
+        <p className="text-center mx-auto orange">(click on the icons for the code or deployed version)</p>
       </div>
       
       <div className="row">
