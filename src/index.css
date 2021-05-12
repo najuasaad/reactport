@@ -10,6 +10,11 @@
   color: var(--teal)
 }
 
+.yicon {
+  font-size: 28px;
+  color: var(--yellow)
+}
+
 p {
   color: var(--teal)
 }
@@ -24,4 +29,34 @@ p {
 
 .black {
   color: black
+}
+
+.projectCard {
+  width: auto;
+  padding: 10px;
+  margin: 10px;
+}
+
+.projImage {
+  max-height: auto;
+  max-width: auto
+}
+
+.codeIcon {
+  bottom: 40px;
+  left: 10px;
+}
+
+.depIcon {
+  bottom: 70px;
+  left: 50px;
+}
+
+.title {
+  font-family: 'Monoton', cursive;
+  font-size: 30px;
+  padding: 5px;
+  text-align: center;
+  color: var(--brown);
+  background-color: var(--teal)
 }
