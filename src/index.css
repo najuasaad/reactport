@@ -85,7 +85,8 @@ p {
 /* Large smartphones - navbar changes color */
 @media screen and (max-width: 768px) {
   .me {
-    max-width: 250px;
+    max-height: 200px;
+    max-width: auto;
   }
 
   .title {
@@ -102,15 +103,15 @@ p {
   }
 
   li.a {
-    left: 100px;
+    left: 75px;
   }
 
   li.b {
-    left: 200px;
+    left: 175px;
   }
 
   li.c {
-    left: 300px;
+    left: 275px;;
   }
 }
 

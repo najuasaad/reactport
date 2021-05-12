@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="container">
       <div className="row justify-content-center">
-        <div className="col-5 my-4">
+        <div className="col-5 my-4 justify-content-center">
           <a href="https://open.spotify.com/artist/1SfePVRnUVHCQciMUY3m4c"><img 
             alt="Gorgeous Coder" 
             src ={image}
